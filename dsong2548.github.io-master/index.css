@@ -1,0 +1,120 @@
+.container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+#title {
+    background-image: url(res/background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.slide {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#slide1 {
+    background-image: url(res/dadoes.jpg);
+}
+
+#slide2 {
+    background-image: url(res/windup.jpg);
+}
+
+#slide3 {
+    background-image: url(res/dystopia.jpg);
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+#slide1 img {
+    height: 35rem;
+}
+
+#slide2 img {
+    height: 38rem;
+}
+
+#slide3 .row {
+    padding-bottom: 2rem;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+    padding-top: 4rem;
+    font-weight: 100;
+    font-size: 8rem;
+    text-shadow: 0px 0px 5px black;
+}
+
+thick {
+    font-weight: 900;
+}
+
+h2 {
+    padding-top: 1rem;
+    font-weight: 200;
+}
+
+h4 {
+    padding-top: 1rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.content p {
+    font-weight: 200;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.content h1 {
+    font-size: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#slide3 p {
+    font-size: 1.75rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+h4 thick {
+    font-weight: 500;
+}
+
+.content h4 thick {
+    font-weight: 600;
+}
+
+.content p thick {
+    font-weight: 400;
+}
+
+body {
+    height: 100%;
+}
+
+iframe {
+    background-color: black;
+    box-shadow: 0px 10px 10px black;
+    width: 640px;
+    height: 360px;
+}
